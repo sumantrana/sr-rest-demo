@@ -30,12 +30,12 @@ spec:
         description: Manage customer profiles
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/sumantrana/sr-rest-demo.git
       ref:
         branch: main
   serviceClaims:
     - name: database
       ref:
         apiVersion: services.apps.tanzu.vmware.com/v1alpha1
-        kind: ResourceClaim
-        name: customer-database
+        kind: ClassClaim
+        name: psql-3g
