@@ -38,4 +38,4 @@ spec:
       ref:
         apiVersion: services.apps.tanzu.vmware.com/v1alpha1
         kind: ClassClaim
-        name: psql-3g
+        name: psql-sr
